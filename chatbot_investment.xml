@@ -1,0 +1,186 @@
+    <?xml version="1.0" encoding="utf-8"?>
+a<iml>
+
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>HELLO <set name="username"><star/></set>! How can I help you?</template>
+</category>
+
+<category>
+    <pattern>I AM *</pattern>
+    <template><srai>MY NAME IS *</srai></template>
+</category>
+
+<category>
+    <pattern>BYE</pattern>
+    <template>Goodbye <get name="username"/></template>
+</category>
+
+<category>
+    <pattern>GOODBYE</pattern>
+    <template><srai>BYE</srai></template>
+</category>
+
+<category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>
+        <random>
+            <li>I am good. How are you?</li>
+            <li>I am fine.</li>
+            <li>I am good.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS INVESTMENT</pattern>
+    <template>Investment is the purchase of goods that are not consumed today but are used in the future to create wealth.</template>
+</category>
+
+<category>
+    <pattern>INVESTMENT</pattern>
+    <template><srai>WHAT IS INVESTMENT</srai></template>
+</category>
+
+<category>
+    <pattern>TELL ME ABOUT INVESTMENT</pattern>
+    <template><srai>WHAT IS INVESTMENT</srai></template>
+</category>
+
+<category>
+    <pattern>TELL ME MORE ABOUT INVESTMENT</pattern>
+    <template>Types of investment are Public Provident Fund, Mutual Funds, Equity Shares, Real Estate</template>
+</category>
+
+<category>
+    <pattern>_ TYPES OF INVESTMENT</pattern>
+    <template><srai>TELL ME MORE ABOUT INVESTMENT</srai></template>
+</category>
+
+<category>
+    <pattern>I AM INTERESTED IN *</pattern>
+    <template>Let's discuss <set name="topic"><star/></set></template>
+</category>
+
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template>Okay let's discuss about <set name="topic">!<star/></set></template>
+</category>
+
+<topic name="PUBLIC PROVIDENT FUND">
+<category>
+    <pattern>*</pattern>
+    <template>Public Provident Fund is blah blah blah.</template>
+</category>
+</topic>
+
+<topic name="PUBLIC PROVIDENT FUND">
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template><srai>*</srai></template>
+</category>
+</topic>
+
+<topic name="MUTUAL FUNDS">
+<category>
+    <pattern>*</pattern>
+    <template>Mutual Funds is blah blah blah.</template>
+</category>
+</topic>
+
+<topic name="MUTUAL FUNDS">
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template><srai>*</srai></template>
+</category>
+</topic>
+
+<topic name="EQUITY SHARES">
+<category>
+    <pattern>*</pattern>
+    <template>Equity Shares is blah blah blah.</template>
+</category>
+</topic>
+
+<topic name="EQUITY SHARES">
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template><srai>*</srai></template>
+</category>
+</topic>
+
+<topic name="REAL ESTATE">
+<category>
+    <pattern>*</pattern>
+    <template>Real Estate is blah blah blah.</template>
+</category>
+</topic>
+
+<topic name="REAL ESTATE">
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template><srai>*</srai></template>
+</category>
+</topic>
+
+<topic name="PUBLIC PROVIDENT FUND">
+<category>
+    <pattern>MINIMUM INVESTMENT AMOUNT</pattern>
+    <template>500/-</template>
+</category>
+<category>
+    <pattern>MAXIMUM INVESTMENT AMOUNT</pattern>
+    <template>150000/-</template>
+</category>
+<category>
+    <pattern>MINIMUM INVESTMENT PERIOD</pattern>
+    <template>1.5 years</template>
+</category>
+</topic>
+
+<topic name="MUTUAL FUNDS">
+<category>
+    <pattern>MINIMUM INVESTMENT AMOUNT</pattern>
+    <template>25000/-</template>
+</category>
+<category>
+    <pattern>MAXIMUM INVESTMENT AMOUNT</pattern>
+    <template>5000000/-</template>
+</category>
+<category>
+    <pattern>MINIMUM INVESTMENT PERIOD</pattern>
+    <template>2 years</template>
+</category>
+</topic>
+
+<topic name="EQUITY SHARES">
+<category>
+    <pattern>MINIMUM INVESTMENT AMOUNT</pattern>
+    <template>No such thing.</template>
+</category>
+<category>
+    <pattern>MAXIMUM INVESTMENT AMOUNT</pattern>
+    <template>No such thing.</template>
+</category>
+<category>
+    <pattern>MINIMUM INVESTMENT PERIOD</pattern>
+    <template>No such thing.</template>
+</category>
+</topic>
+
+<topic name="REAL ESTATE">
+<category>
+    <pattern>MINIMUM INVESTMENT AMOUNT</pattern>
+    <template>No such thing.</template>
+</category>
+<category>
+    <pattern>MAXIMUM INVESTMENT AMOUNT</pattern>
+    <template>No such thing.</template>
+</category>
+<category>
+    <pattern>MINIMUM INVESTMENT PERIOD</pattern>
+    <template>No such thing.</template>
+</category>
+</topic>
+
+</aiml>
